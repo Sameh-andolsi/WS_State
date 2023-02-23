@@ -1,38 +1,56 @@
-.App {
+.app {
   text-align: center;
-}
+  background-color: #9c9c9c;
+ background: #cc95c0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+min-height: 100vh;
+color: rgb(0, 0, 0);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box {
+  border-radius: 10px;
+  max-width: 900px;
+  padding: 25px 35px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn {
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(21, 17, 224);
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 0 0.3rem rgba(107, 20, 96, 0.65);
+}
+.profImg{
+  padding: 35px;
+}
+img {
+  border-radius: 15px;
+  width: 280px;
+}
+.inf{
+  display: flex;
+  flex-direction: row;
+}
+.pos {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  font-family: cursive;
+  font-size: medium;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.count {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
 }
